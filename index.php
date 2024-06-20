@@ -2,28 +2,9 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Practica-Fatima Aide Hervert</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color:#a29bfe;
-            padding: 20px;
-        }
-        h2 {
-            color: #55efc4;
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 20px;
-        }
-        form {
-            max-width: 400px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-    </style>
+    
 </head>
 <body>
     <h2>Conversor de bases numéricas</h2> 

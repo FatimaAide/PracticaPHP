@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#a29bfe;
+    padding: 20px;
+}
+h2 {
+    color: #55efc4;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
