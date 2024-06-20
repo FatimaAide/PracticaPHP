@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Practica-Fatima Aide Hervert</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#a29bfe;
+            padding: 20px;
+        }
+        h2 {
+            color: #55efc4;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h2>Conversor de bases numéricas</h2>
+    <h2>Conversor de bases numéricas</h2> 
     <form method="post">
         <label for="numero">Ingrese el número:</label>
         <input type="number" id="numero" name="numero" required>
         <br><br>
-        <label for="opcion">Seleccione la base a la que desea convertir:</label>
+        <label for="opcion">Seleccione la opción:</label>
         <select id="opcion" name="opcion" required>
             <option value="binario">Binario</option>
             <option value="octal">Octal</option>
