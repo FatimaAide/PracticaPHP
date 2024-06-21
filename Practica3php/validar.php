@@ -7,7 +7,7 @@ function Ticket($nombre, $altura) {
         <head>
             <meta charset='UTF-8'>
             <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-            <title>Ticket para Montaña Rusa</title>
+            <title>Ticket</title>
             <style>
                 body {
                     font-family:cursive;
