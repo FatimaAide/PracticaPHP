@@ -7,9 +7,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Comparar las contraseñas
     if ($password1 == $password2) {
-        $message = "<h1><em>Las contraseñas coinciden.<h1><em>";
+        $message = "<h1><em>Las contraseñas son correctas.<h1><em>";
     } else {
-        $message = "<h1>Las contraseñas no coinciden.<h1>";
+        $message = "<h1>Las contraseñas son incorrectas.<h1>";
     }
 
     // Mostrar el mensaje
