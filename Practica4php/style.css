@@ -1,0 +1,14 @@
+.card-body{
+    min-height: 80px;
+    background: linear-gradient(
+        90deg,
+        rgba(203,18,133,1)0%,
+        rgba(80,49,145,1)70%
+    );
+
+}
+form{
+    background-color: #9AECDB;
+    padding: 180px;
+    margin-top: 40px; /
+    }
